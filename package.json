@@ -2,8 +2,9 @@
   "name": "super-arrays",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
+    "dev": "tsc index.ts --outfile build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
